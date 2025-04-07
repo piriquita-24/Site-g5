@@ -521,15 +521,7 @@
     .header-top-right {
         margin-bottom: -8px;
     }
-    .fullscreen::before {
-        background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
+    
     .slider-content h1,
     .slider-content p {
         color: #fff;

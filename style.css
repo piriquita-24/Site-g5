@@ -3158,7 +3158,20 @@ ul.ride-list {
 #list-view .single-elomous-product .sticker-new,#list-view .single-elomous-product .sticker-sale {
     top: 0
 }
-
+/* Estilo do banner */
+.banner {
+    width: 100%;
+    padding-left: 20px;  /* Adiciona espaço à esquerda */
+    padding-right: 20px; /* Adiciona espaço à direita */
+    box-sizing: border-box; /* Para garantir que o padding não afete o tamanho do elemento */
+  }
+  
+  /* Estilo da imagem dentro do banner */
+  .banner img {
+    width: 100%;
+    height: auto;  /* Mantém a proporção da imagem */
+  }
+  
 #list-view .single-elomous-product .pro-actions {
     -webkit-box-align: center;
     -ms-flex-align: center;
